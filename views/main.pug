@@ -4,5 +4,6 @@ block content
     section
         h1 Welcome
         p This is a simple project testing out implementing user authentication and authorisation using JSON Web Tokens.
+        p #[a(href="/user/signup") Click here] to go to the signup page and choose a username and password.
         p No frontend libraries used, all html is generated server-side with Pug and Express.
-        p User authentication and authorisation powered by jsonwebtoken, bcrypt, and mongodb.
+        p Passwords salted and hashed with bcrypt, users authorised with jsonwebtoken in cookies. User data saved with MongoDB.
