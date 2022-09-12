@@ -8,7 +8,7 @@ User authentication and authorisation powered by jsonwebtoken, bcrypt, and mongo
 
 ## Running
 
-To run, open a terminal in the project folder and run `npm run start`.
+To run, open a terminal in the project folder and run `npm install` then `npm run start`.
 
 Access the server at localhost:8080, log in at localhost:8080/user/login
 
