@@ -7,7 +7,7 @@
 		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
 		"test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
 		"dev": "nodemon start.ts",
-		"build": "tsc",
+		"build": "npm install && tsc",
 		"start": "node start.js"
 	},
 	"keywords": [],
