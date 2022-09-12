@@ -1,0 +1,9 @@
+extends layout.pug 
+
+block content 
+    script(src="/js/redirect.js") 
+    h1 Welcome, #{name}
+    section
+        p Your login has successfully been created.
+        p You will be redirected in <span id="countdown">5</span> seconds. If not, then please 
+            a(href="/user/secret") click here

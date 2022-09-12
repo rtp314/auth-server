@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+    h1 Sign Up
+    section
+        form.login-form(action="/user/new" method="POST")
+            .flex-column
+                if error
+                    h3= error
+                label(for="username") Username
+                input#username(type="text" name="username" value=username)
+                label(for="password") Password
+                input#password(type="password" name="password")
+                button(type='submit') Create User 
+                span Already created a user? 
+                    a(href="/user/login") Log in here.
