@@ -17,4 +17,4 @@ Access the server at localhost:8080, log in at localhost:8080/user/login
 If I come back to work more on this, I would implement:
 
 -   A navbar with login status and a logout button
--   Tests either for rendering using cheerio or for backend using jest and mocking mongodb
+-   Tests, either for frontend rendering using cheerio or for backend using jest and mocking mongodb
