@@ -1,8 +1,8 @@
 extends layout.pug
 
 block content
-    h1 Sign Up
     section
+        h1 Sign Up
         form.login-form(action="/user/new" method="POST")
             .flex-column
                 if error
